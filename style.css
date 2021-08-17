@@ -1,0 +1,116 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+img{
+    width: 300px;
+    height: 200px;
+}
+h1{
+    font-size: 50px;
+    color: #9c9c9c;
+}
+h2{
+    font-size: 40px;
+}
+img{
+    border-radius: 5px;
+}
+.last:hover{
+    box-shadow:10px 10px 50px grey;
+}
+.containt{
+    width: 500px;
+    margin: 0 auto;
+}
+.last p{ 
+    width: 300px;
+}
+.flex{
+    display: flex;
+}
+.social-area{
+    display: flex;
+    width: 78%;
+    justify-content: center;
+    box-shadow: 5px 5px 20px gray;
+    margin: 100px auto;
+    border-radius: 25px;
+    box-shadow: 5px 5px 20px gray;
+    padding-bottom: 30px;
+    background-color: #EBF8FF;
+}
+.social{
+    margin: 0 auto;
+}
+.social-area h1{
+    margin-bottom: 0px;
+}
+.delviery-area{
+    text-align: center;
+}
+.delivery-section{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.delivery-section h3{
+    font-size: 22px;
+}
+.deliver-path h3,
+.deliver-path p{
+	width: 230px;
+}
+.deliver-path{
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 20px gray;
+    margin: 0 1%;
+    border-radius: 15px;
+}
+
+.Footer p{
+    text-align: center;
+}
+.half{
+    width: 50%;
+    padding: 5%;
+}
+.half img{
+    width: 80%;
+    height: 85%;
+}
+.half p{
+    font-size: 100%;
+}
+.hyy{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+    background-image: linear-gradient(54deg,#FF5757,red,white);
+    padding: 10px 40px;    
+    border-radius: 15px 0 15px 0;
+    font-weight: 700;
+    color: white;
+}
+.Lorem{
+    background-image: url(img/Frame-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+.Lorem .col-md-5 img{
+    height: 400px;
+    width: 400px;
+}
+a{
+    margin-bottom: 90px;
+}
+#subscribe{
+    height: 300px;
+    background-image: linear-gradient(45deg, #fff,#FF5757,red);
+}
